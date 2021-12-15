@@ -44,7 +44,7 @@ const DashboardNavbar = ({ onMobileNavOpen, ...rest }) => {
           >
             <LogoutIcon
               onClick={() => {
-                navigate('/admin', { replace: true });
+                navigate('/admin/login', { replace: true });
               }}
             />
 
