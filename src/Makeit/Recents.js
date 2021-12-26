@@ -16,8 +16,8 @@ function Recents() {
         {recentitems("Developer")}
         {recentitems("FYP")}
         {recentitems("Reactjs")}
-        {recentitems("Geek")}
-        {recentitems("Nerd")}
+        {recentitems("Foodie")}
+        {recentitems("Makeit")}
       </div>
     </div>
   );

@@ -23,8 +23,8 @@ function Header() {
     image:
       "https://cutshort-data.s3.amazonaws.com/cloudfront/public/companies/5809d1d8af3059ed5b346ed1/logo-1615367026425-logo-v6.png",
     message: "Welcome to Makeit .",
-    detailPage: "/Recipe",
-    receivedTime: "12h ago"
+    detailPage: "/MainRecipe",
+    receivedTime: "12sec ago"
   };
   const [data, setData] = useState([DEFAULT_NOTIFICATION]);
 

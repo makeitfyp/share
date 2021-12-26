@@ -23,7 +23,7 @@ function DietPlanCustom() {
           <button
             className='Dietplan_shopping-list'
           >
-            Ingredient     </button>
+            Ingredient</button>
         </div>
 
         <ul className="Dietplan_meal-types">

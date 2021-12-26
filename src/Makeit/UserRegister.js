@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import "./UserRegister.css";
 import { useNavigate } from "react-router-dom";
-import { useDispatch } from "react-redux";
-import { auth } from "./firebase";
+/* import { useDispatch } from "react-redux";
+import { auth } from "./firebase"; */
 
 function UserRegister() {
   const [email, setemail] = useState("");
@@ -10,7 +10,7 @@ function UserRegister() {
   const [password, setpassword] = useState("");
   const [profilepic, setprofilepic] = useState("");
   const navigate = useNavigate();
-  const dispatch = useDispatch();
+ /*  const dispatch = useDispatch(); */
 
   /*   const register = () => {
       if (!name) {
@@ -76,6 +76,9 @@ function UserRegister() {
         ></input>
         <button type="submit" onClick={() => navigate("/")}>
           Sign Up
+        </button>
+        <button type="submit" onClick={() => navigate("/")}>
+         Back
         </button>
       </form>
     </div>

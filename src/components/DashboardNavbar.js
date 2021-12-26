@@ -24,9 +24,9 @@ const DashboardNavbar = ({ onMobileNavOpen, ...rest }) => {
       {...rest}
     >
       <Toolbar>
-        <RouterLink to="/adminpanel/dashboard">
-          <Logo />
-        </RouterLink>
+       
+          <h2>ADMIN PANEL</h2>
+          
         <Box sx={{ flexGrow: 1 }} />
         <Hidden lgDown>
           <IconButton color="inherit" size="large">

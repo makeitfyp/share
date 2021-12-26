@@ -8,9 +8,8 @@ const MainNavbar = (props) => (
     {...props}
   >
     <Toolbar sx={{ height: 64 }}>
-      <RouterLink to="/adminpanel">
-        <Logo />
-      </RouterLink>
+      
+      <h2>ADMIN PANEL</h2>
     </Toolbar>
   </AppBar>
 );
